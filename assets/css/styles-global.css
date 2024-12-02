@@ -63,6 +63,8 @@ body {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    width: 100%;
+    position: relative;
 }
 
 .footer-container {
@@ -112,4 +114,23 @@ body {
     font-size: 14px;
 }
 
-  
+.image-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.quick-intro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.tech-stack{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
