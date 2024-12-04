@@ -134,3 +134,17 @@ body {
     margin-right: auto;
     width: 10%;
 }
+
+.first-name{
+    color: #f00;
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+   
+    justify-content: center;
+
+
+}
+
