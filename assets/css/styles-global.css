@@ -36,10 +36,11 @@ body {
   }
 
   .header{
-    border: 10px ridge black;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   a, a:visited, a:hover, a:active {
@@ -132,7 +133,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 25%;
 }
 
 .first-name{
@@ -153,10 +154,18 @@ img {
     height: auto;
 }
 
-.header{
-    text-align: center;
+
+
+.header ul p {
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
 }
 
-.header ul {
-    display: inline-block;
+h1{
+    text-align: center;
 }
+ .tech-stack h2 {
+    display: inline;
+    float: right;
+ }
